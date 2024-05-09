@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>PetShop</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/admin/main.css">
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+  
+
+
+</head>
+
+
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:250px">
+        <aside class="app-sidebar">
+            <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="Picture/logo.png" width="50px"
+                    alt="User Image">
+                <div>
+                    <p class="app-sidebar__user-name"><b>Admin</b></p>
+                </div>
+            </div>
+            <hr>
+            <ul class="app-menu">
+                <li><a class="app-menu__item" href="#"><i class='app-menu__icon bx bx-user-voice'></i><span
+                            class="app-menu__label">Quản lý khách hàng</span></a></li>
+                <li><a class="app-menu__item" href="table-data-product.html"><i
+                            class='app-menu__icon bx bx-purchase-tag-alt'></i><span class="app-menu__label">Quản lý sản
+                            phẩm</span></a>
+                </li>
+                <li><a class="app-menu__item" href="table-data-oder.html"><i class='app-menu__icon bx bx-task'></i><span
+                            class="app-menu__label">Quản lý đơn hàng</span></a></li>
+                <li><a class="app-menu__item" href="quan-ly-bao-cao.html"><i
+                            class='app-menu__icon bx bx-pie-chart-alt-2'></i><span class="app-menu__label">Báo cáo doanh
+                            thu</span></a>
+                </li>
+            </ul>
+
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left: 250px">
+
+        <section id="topbar" class="d-flex align-items-center">
+            <div class="container d-flex justify-content-center justify-content-md-between">
+                <div class="contact-info d-flex align-items-center">
+                    <a href="mailto:contact@example.com"><i class="bi bi-envelope d-flex align-items-center">
+                            &nbsp;Mail&nbsp;&nbsp;</a></i>
+
+                </div>
+                <input placeholder="&nbsp; Tìm kiếm" type="search" class="input">
+                <div class="social-links d-none d-md-flex align-items-center">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- ======= Header ======= -->
+        <header id="header" class="d-flex align-items-center">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <div class="logo">
+                    <a href="index.html"><img src="Picture/logo.png" alt="" class="img-fluid"></a>
+                </div>
+
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="active" href="index.html">Trang Chủ</a></li>
+
+                        <li class="dropdown"><a href="#"><span>Review</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="blog1.html">Giống Cún</a></li>
+                                <li><a href="blog.html">Giống Mèo</a></li>
+                                <li><a href="blog2.html">Giống Chim</a></li>
+                                <li><a href="blog3.html">Giống Chuột</a></li>
+                                <li><a href="blog4.html">Giống Cá</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a href="#"><span>Shop Cún</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="ShopCho_QuanAo.html">Áo quần và phụ kiện</a></li>
+                                <li><a href="ShopCho_ThucAn.html">Đồ ăn</a></li>
+                                <li><a href="ShopCho_DoChoi.html">Đồ chơi và vật dụng</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a href="#"><span>Shop Mèo</span> <i class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="ShopMeo_QuanAo.html">Áo quần và phụ kiện</a></li>
+                                <li><a href="ShopMeo_ThucAn.html">Đồ ăn</a></li>
+                                <li><a href="ShopMeo_DoChoi.html">Đồ chơi và vật dụng</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="ShopChim.html">Chim Cảnh</a></li>
+                        <li><a href="ShopChuot.html">Chuột Cảnh</a></li>
+                        <li><a href="ShopCa.html">Cá Cảnh</a></li>
+
+                        <li><a href="contact.html">Liên hệ</a></li>
+
+                        <li class="dropdown"><a href="#"><span>Đăng nhập/Đăng kí</span> <i
+                                    class="bi bi-chevron-down"></i></a>
+                            <ul>
+                                <li><a href="login.html">Đăng nhập</a></li>
+                                <li><a href="sigin.html">Đăng kí</a></li>
+                            </ul>
+                        </li>
+                        
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+
+            </div>
+        </header><!-- End Header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <main class="">
+            <div class="row-cols-1">
+                <div class="tile">
+                    <div class="tile-body">
+                        <div class="row element-button">
+                            <div class="col-sm-2">
+
+                                <a class="btn btn-add btn-sm" href="form-add-san-pham.html" title="Thêm"><i
+                                        class="fas fa-plus"></i>
+                                    Tạo mới sản phẩm</a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a class="btn btn-delete btn-sm" type="button" title="Xóa" onclick="myFunction(this)"><i
+                                        class="fas fa-trash-alt"></i> Xóa tất cả </a>
+                            </div>
+                        </div>
+
+
+                        <table class="table table-hover table-bordered" id="sampleTable">
+                            <tr>
+                                <th width="10"><input type="checkbox" id="all"></th>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Ảnh</th>
+                                <th>Số lượng</th>
+                                <th>Tình trạng</th>
+                                <th>Giá tiền</th>
+                                <th>Danh mục</th>
+                                <th>Chức năng</th>
+                            </tr>
+
+                            <tr>
+                                <td width="10"><input type="checkbox" name="check1" value="1"></td>
+                                <td>82716001</td>
+                                <td>Ghế ăn Vitali</td>
+                                <td><img src="Picture/BlogCa/1.jpg" alt="" width="100px;"></td>
+                                <td>55</td>
+                                <td><span class="badge bg-success">Còn hàng</span></td>
+                                <td>4.600.000 đ</td>
+                                <td>Ghế gỗ</td>
+                                <td><button class="btn btn-primary btn-sm trash" type="button" title="Xóa"
+                                        onclick="myFunction(this)"><i class="fas fa-trash-alt"></i>
+                                    </button>
+                                    <button class="btn btn-primary btn-sm edit" type="button" title="Sửa" id="show-emp"
+                                        data-toggle="modal" data-target="#ModalUP"><i class="fas fa-edit"></i></button>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--
+          MODAL
+        -->
+        <div class="modal fade" id="ModalUP" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static"
+            data-keyboard="false">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="form-group  col-md-12">
+                                <span class="thong-tin-thanh-toan">
+                                    <h5>Chỉnh sửa thông tin sản phẩm cơ bản</h5>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Mã sản phẩm </label>
+                                <input class="form-control" type="number" value="71309005">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Tên sản phẩm</label>
+                                <input class="form-control" type="text" required value="Bàn ăn gỗ Theresa">
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <label class="control-label">Số lượng</label>
+                                <input class="form-control" type="number" required value="20">
+                            </div>
+                            <div class="form-group col-md-6 ">
+                                <label for="exampleSelect1" class="control-label">Tình trạng sản phẩm</label>
+                                <select class="form-control" id="exampleSelect1">
+                                    <option>Còn hàng</option>
+                                    <option>Hết hàng</option>
+                                    <option>Đang nhập hàng</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label class="control-label">Giá bán</label>
+                                <input class="form-control" type="text" value="5.600.000">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="exampleSelect1" class="control-label">Danh mục</label>
+                                <select class="form-control" id="exampleSelect1">
+                                    <option>Bàn ăn</option>
+                                    <option>Bàn thông minh</option>
+                                    <option>Tủ</option>
+                                    <option>Ghế gỗ</option>
+                                    <option>Ghế sắt</option>
+                                    <option>Giường người lớn</option>
+                                    <option>Giường trẻ em</option>
+                                    <option>Bàn trang điểm</option>
+                                    <option>Giá đỡ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <BR>
+                        <a href="#" style="    float: right;
+            font-weight: 600;
+            color: #ea0000;">Chỉnh sửa sản phẩm nâng cao</a>
+                        <BR>
+                        <BR>
+                        <button class="btn btn-save" type="button">Lưu lại</button>
+                        <a class="btn btn-cancel" data-dismiss="modal" href="#">Hủy bỏ</a>
+                        <BR>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        MODAL
+        -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Giới Thiệu</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Trang chủ</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Cún cưng</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Mèo cưng</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Chim cảnh</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Chuột cảnh</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Cá cảnh</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Mặt hàng</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Áo Quần</a>
+                                    <ul class="sub_menu">
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_QuanAo.html">Áo Quần
+                                                Của
+                                                Cún</a></li>
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_QuanAo.html">Áo Quần
+                                                Của
+                                                Mèo</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Thức Ăn</a>
+                                    <ul class="sub_menu">
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_ThucAn.html">Thức Ăn
+                                                Của
+                                                Cún</a></li>
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_ThucAn.html">Thức Ăn
+                                                Của
+                                                Mèo</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Dồ Chơi</a>
+                                    <ul class="sub_menu">
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_DoChoi.html">Đồ Chơi
+                                                Của
+                                                Cún</a></li>
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_DoChoi.html">Đồ Chơi
+                                                Của
+                                                Mèo</a></li>
+                                    </ul>
+                                </li>
+
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Khác</a>
+                                    <ul class="sub_menu">
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopChim.html">Vật Dụng Của
+                                                Chim</a></li>
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopChuot.html">Vật Dụng Của
+                                                Chuột</a></li>
+                                        <li><i class="bx bx-chevron-right"></i> <a href="ShopCa.html">Vật Dụng Của
+                                                Cá</a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <h4>Liên hệ</h4>
+                            <p>
+                                Trường Đại Học Công Nghệ thông tin và truyền thông Việt Hàn <br>
+                                Địa chỉ: Khu đô thị Đại học Đà Nẵng, 470 Đường Trần Đại Nghĩa, phường Hòa Quý, quận Ngũ
+                                Hành
+                                Sơn, Đà
+                                Nẵng<br>
+                                Việt Nam <br><br>
+                                <strong>Phone:</strong> 0147.8.443.677<br>
+                                <strong>Email:</strong> quynhpn.22it@vku.udn.vn<br>
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-info">
+                            <h3>PetShop</h3>
+                            <p>Pet Shop là thiên đường thú cưng , nơi cung cấp toàn bộ những thứ liên quan đến đời sống
+                                của
+                                pet. Pet
+                                Shop đảm bảo 100% về chất lượng và độ an toàn!</p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="#" class="google-plus"><i class="bi bi-tiktok"></i></a>
+                                <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &#64; Cửa hàng kinh doanh thú cưng - <strong><span> PetShop</span></strong><br>
+                    Chúc mọi người một ngày tốt lành <i class="bi bi-emoji-smile"></i>
+                </div>
+
+            </div>
+        </footer><!-- End Footer -->
+
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+
+    <!-- Essential javascripts for application to work-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="assets/js/main2.js"></script>
+
+
+
+
+
+
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="assets/js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <!-- Data table plugin-->
+    <script type="text/javascript" src="assets/js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('#sampleTable').DataTable();
+        //Thời Gian
+        function time() {
+            var today = new Date();
+            var weekday = new Array(7);
+            weekday[0] = "Chủ Nhật";
+            weekday[1] = "Thứ Hai";
+            weekday[2] = "Thứ Ba";
+            weekday[3] = "Thứ Tư";
+            weekday[4] = "Thứ Năm";
+            weekday[5] = "Thứ Sáu";
+            weekday[6] = "Thứ Bảy";
+            var day = weekday[today.getDay()];
+            var dd = today.getDate();
+            var mm = today.getMonth() + 1;
+            var yyyy = today.getFullYear();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            nowTime = h + " giờ " + m + " phút " + s + " giây";
+            if (dd < 10) {
+                dd = '0' + dd
+            }
+            if (mm < 10) {
+                mm = '0' + mm
+            }
+            today = day + ', ' + dd + '/' + mm + '/' + yyyy;
+            tmp = '<span class="date"> ' + today + ' - ' + nowTime +
+                '</span>';
+            document.getElementById("clock").innerHTML = tmp;
+            clocktime = setTimeout("time()", "1000", "Javascript");
+
+            function checkTime(i) {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            }
+        }
+    </script>
+    <script>
+        function deleteRow(r) {
+            var i = r.parentNode.parentNode.rowIndex;
+            document.getElementById("myTable").deleteRow(i);
+        }
+        jQuery(function () {
+            jQuery(".trash").click(function () {
+                swal({
+                    title: "Cảnh báo",
+                    text: "Bạn có chắc chắn là muốn xóa sản phẩm này?",
+                    buttons: ["Hủy bỏ", "Đồng ý"],
+                })
+                    .then((willDelete) => {
+                        if (willDelete) {
+                            swal("Đã xóa thành công.!", {
+
+                            });
+                        }
+                    });
+            });
+        });
+        oTable = $('#sampleTable').dataTable();
+        $('#all').click(function (e) {
+            $('#sampleTable tbody :checkbox').prop('checked', $(this).is(':checked'));
+            e.stopImmediatePropagation();
+        });
+    </script>
+
+</body>
+
+</html>

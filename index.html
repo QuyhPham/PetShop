@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>PetShop</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <a href="mailto:contact@example.com"><i class="bi bi-envelope d-flex align-items-center">
+            &nbsp;Mail&nbsp;&nbsp;</a></i>
+
+      </div>
+      <input placeholder="&nbsp; Tìm kiếm" type="search" class="input">
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="logo">
+        <a href="index.html"><img src="Picture/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Trang Chủ</a></li>
+
+          <li class="dropdown"><a href="#"><span>Review</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="blog1.html">Giống Cún</a></li>
+              <li><a href="blog.html">Giống Mèo</a></li>
+              <li><a href="blog2.html">Giống Chim</a></li>
+              <li><a href="blog3.html">Giống Chuột</a></li>
+              <li><a href="blog4.html">Giống Cá</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Shop Cún</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ShopCho_QuanAo.html">Áo quần và phụ kiện</a></li>
+              <li><a href="ShopCho_ThucAn.html">Đồ ăn</a></li>
+              <li><a href="ShopCho_DoChoi.html">Đồ chơi và vật dụng</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="#"><span>Shop Mèo</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="ShopMeo_QuanAo.html">Áo quần và phụ kiện</a></li>
+              <li><a href="ShopMeo_ThucAn.html">Đồ ăn</a></li>
+              <li><a href="ShopMeo_DoChoi.html">Đồ chơi và vật dụng</a></li>
+            </ul>
+          </li>
+
+          <li><a href="ShopChim.html">Chim Cảnh</a></li>
+          <li><a href="ShopChuot.html">Chuột Cảnh</a></li>
+          <li><a href="ShopCa.html">Cá Cảnh</a></li>
+
+          <li><a href="contact.html">Liên hệ</a></li>
+
+          <li class="dropdown"><a href="#"><span>Đăng nhập/Đăng kí</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="login.html">Đăng nhập</a></li>
+              <li><a href="sigin.html">Đăng kí</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <!-- <form class="d-flex"> -->
+
+        <button id="nextButton" class="btn btn-outline-dark">
+          <img src="giohang.png" alt="" width="35px">
+        </button>
+        <!-- </form> -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(Picture/cm1.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Chào mừng đến với <span>PETSHOP</span></h2>
+                <p class="animate__animated animate__fadeInUp">Hãy dạo quanh trang web để tìm hiểu về các sản phẩm chất
+                  lượng cao và dịch vụ chăm sóc tuyệt vời mà chúng tôi cung cấp. Chúng tôi hy vọng bạn sẽ tìm thấy những
+                  điều tuyệt vời và gặp được một thành viên mới trong gia đình đáng yêu của bạn. Cảm ơn bạn đã ghé thăm
+                  và chúc bạn có một trải nghiệm mua sắm thú vị!</p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(Picture/cm3.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated fanimate__adeInDown">Review một số <span>Cún Cưng</span></h2>
+                <p class="animate__animated animate__fadeInUp">Cún cưng là những vị khách đáng yêu và trung thành trong
+                  gia đình của chúng ta. Tại Petshop, chúng tôi cung cấp một loạt các mặt hàng dành cho cún cưng, bao
+                  gồm thức ăn chất lượng cao, đồ chơi giải trí, phụ kiện thời trang.</p>
+                <a href="blog1.html" class="btn-get-started animate__animated animate__fadeInUp">Go</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(Picture/cm2.jpg)">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Review một số <span>Mèo Cưng</span></h2>
+                <p class="animate__animated animate__fadeInUp">Mèo cưng là những bạn đồng hành đáng yêu và nâng niu
+                  trong gia đình. Tại Petshop, chúng tôi cung cấp một loạt các sản phẩm dành cho mèo cưng, bao gồm thức
+                  ăn chất lượng, đồ chơi giải trí, phụ kiện thoải mái.</p>
+                <a href="blog.html" class="btn-get-started animate__animated animate__fadeInUp">Go</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Section ======= -->
+    <section id="featured" class="featured">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="icon-box">
+              <i class="bi bi-bag-check"></i>
+              <!-- <i class="bi bi-card-checklist"></i> -->
+              <h3><a href="">Sản phẩm chất lượng</a></h3>
+              <p>
+                Tại Petshop, chúng tôi tự hào cung cấp những sản phẩm chất lượng cao cho cún cưng và mèo cưng của bạn.
+                Chúng tôi đảm bảo rằng tất cả các sản phẩm của chúng tôi đều được chọn lọc kỹ càng để đảm bảo đáp ứng
+                nhu cầu dinh dưỡng, giải trí và làm đẹp tốt nhất cho thú cưng của bạn.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-truck"></i>
+              <!-- <i class="bi bi-bar-chart"></i> -->
+              <h3><a href="">Giao hàng tốc độ</a></h3>
+              <p>
+                Tốc độ giao hàng là ưu tiên hàng đầu của chúng tôi tại Petshop. Chúng tôi cam kết cung cấp dịch vụ giao
+                hàng nhanh chóng để bạn nhận được sản phẩm cho thú cưng của mình trong thời gian ngắn nhất có thể. Chúng
+                tôi hiểu rằng thú cưng là thành viên quan trọng trong gia đình, vì vậy chúng tôi luôn nỗ lực để đảm bảo
+                sự hài lòng và tiện lợi cho khách hàng của chúng tôi.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="icon-box">
+              <i class="bi bi-chat-dots"></i>
+              <!-- <i class="bi bi-binoculars"></i> -->
+              <h3><a href="">Phản hồi thân thiện</a></h3>
+              <p>
+                Tại Petshop, chúng tôi luôn sẵn sàng đáp ứng và giúp đỡ khách hàng với tinh thần tận tâm và thân thiện.
+                Chúng tôi lắng nghe và hiểu những nhu cầu của khách hàng, và sẵn lòng cung cấp sự hỗ trợ và giải đáp mọi
+                câu hỏi một cách chu đáo và nhanh chóng. Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi và
+                chúng tôi cam kết mang đến sự phục vụ tốt nhất cho từng khách hàng đến với Petshop.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+
+            <!-- VIDEO START-->
+            <img src="gifmeo_video.gif" alt="" width="100%" height="auto">
+            <!-- <iframe width="100%" height="500"  src="videomeo.mp4">
+            </iframe> -->
+
+            <!-- VIDEO END -->
+
+
+            <!-- <img src="assets/img/about.jpg" class="img-fluid" alt=""> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <img src="Picture/Chim_Canh/chimcanh.jpg" alt="">
+
+              <!-- <div class="icon" ><i class="bx bxl-dribbble"></i></div> -->
+              <h4><a href="blog2.html">Chim cảnh</a></h4>
+              <p>Tại PetShop, chúng tôi sẽ giới thiệu một số loài chim cảnh phổ biến và được yêu thích.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <img src="Picture/Hamster/chuotcanh.jpg" alt="">
+              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+              <h4><a href="blog3.html">Chuột cảnh</a></h4>
+              <p>Những chú chuột dễ thương là một trong những lựa chọn để yêu thương và nuôi dưỡng của người muốn có một
+                bé cưng nhỏ nhắn.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <img src="Picture/Ca_Canh/cacanh.jpg" alt="">
+              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+              <h4><a href="blog4.html">Cá cảnh</a></h4>
+              <p>Ngắm nhìn những bé cá bơi lượn trong nước cũng là một cách thư giãn.</p>
+            </div>
+          </div>
+          <div class="videochim">
+            <div class="col-lg-12">
+
+              <!-- VIDEO START-->
+              <img src="gifca_video.gif" alt="" width="100%" height="auto">
+              <!-- <iframe width="100%" height="500"  src="videoca.mp4">
+                </iframe> -->
+
+              <!-- VIDEO END -->
+
+
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><i class="bi bi-chat-heart-fill"></i>&nbsp;Theo Dõi Chúng Tôi</h2>
+          <p>Tại Petshop, chúng tôi luôn sẵn lòng hỗ trợ khách hàng bằng nhiều phương thức khác nhau. Bạn có thể theo
+            dõi và liên hệ với chúng tôi qua điện thoại, Email, Facebook, Twitter, Instagram, Tiktok hoặc trên Youtube
+            của PetShop. Chúng tôi cũng cung cấp dịch vụ tư vấn chuyên nghiệp để giúp bạn chăm sóc và lựa chọn sản phẩm
+            phù hợp cho thú cưng của bạn. Chúng tôi luôn sẵn lòng đồng hành và giúp đỡ bạn trong mọi vấn đề liên quan
+            đến thú cưng yêu quý của bạn. <i class="bi bi-suit-heart"></i></p>
+        </div>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/emailpng.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/face.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/Ins.webp" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/Titok.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/yt.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/twitter.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href=""><img src="Picture/MXH/zalo.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="tel:0867942231"><img src="Picture/MXH/phone.png" class="img-fluid"
+                  alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Giới Thiệu</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Trang chủ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cún cưng</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Mèo cưng</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chim cảnh</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chuột cảnh</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Cá cảnh</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Mặt hàng</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Áo Quần</a>
+                <ul class="sub_menu">
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_QuanAo.html">Áo Quần Của Cún</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_QuanAo.html">Áo Quần Của Mèo</a></li>
+                </ul>
+              </li>
+
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Thức Ăn</a>
+                <ul class="sub_menu">
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_ThucAn.html">Thức Ăn Của Cún</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_ThucAn.html">Thức Ăn Của Mèo</a></li>
+                </ul>
+              </li>
+
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dồ Chơi</a>
+                <ul class="sub_menu">
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopCho_DoChoi.html">Đồ Chơi Của Cún</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopMeo_DoChoi.html">Đồ Chơi Của Mèo</a></li>
+                </ul>
+              </li>
+
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Khác</a>
+                <ul class="sub_menu">
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopChim.html">Vật Dụng Của Chim</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopChuot.html">Vật Dụng Của Chuột</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="ShopCa.html">Vật Dụng Của Cá</a></li>
+                </ul>
+
+              </li>
+            </ul>
+
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Liên hệ</h4>
+            <p>
+              Trường Đại Học Công Nghệ thông tin và truyền thông Việt Hàn <br>
+              Địa chỉ: Khu đô thị Đại học Đà Nẵng, 470 Đường Trần Đại Nghĩa, phường Hòa Quý, quận Ngũ Hành Sơn, Đà
+              Nẵng<br>
+              Việt Nam <br><br>
+              <strong>Phone:</strong> 0147.8.443.677<br>
+              <strong>Email:</strong> quynhpn.22it@vku.udn.vn<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>PetShop</h3>
+            <p>Pet Shop là thiên đường thú cưng , nơi cung cấp toàn bộ những thứ liên quan đến đời sống của pet. Pet
+              Shop đảm bảo 100% về chất lượng và độ an toàn!</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &#64; Cửa hàng kinh doanh thú cưng - <strong><span> PetShop</span></strong><br>
+        Chúc mọi người một ngày tốt lành <i class="bi bi-emoji-smile"></i>
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    var nextButton = document.getElementById("nextButton");
+    nextButton.onclick = function () {
+      window.location.href = "giohang.html"
+    }
+  </script>
+</body>
+
+</html>
